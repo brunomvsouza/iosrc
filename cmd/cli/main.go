@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/brunomvsouza/iOSRestrictionCraker/pkg/respwd"
+	"github.com/brunomvsouza/iosrc/pkg/respwd"
 )
 
 func main() {

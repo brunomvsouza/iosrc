@@ -3,7 +3,7 @@ package respwd_test
 import (
 	"testing"
 
-	"github.com/brunomvsouza/iOSRestrictionCraker/pkg/respwd"
+	"github.com/brunomvsouza/iosrc/pkg/respwd"
 	"github.com/stretchr/testify/assert"
 )
 
