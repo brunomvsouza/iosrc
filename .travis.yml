@@ -1,6 +1,8 @@
 language : go
 
 go:
+  - "1.8"
+  - "1.9"
   - "1.10"
   - "1.x"
 
@@ -14,7 +16,7 @@ install:
   - dep ensure
 
 script:
-  - go test -coverprofile=coverage.txt -covermode=atomic ./...
+  - ./test.sh
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
