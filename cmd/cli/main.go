@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"bmvs.io/iosrc/pkg/respwd"
+	"go.bmvs.io/iosrc"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 		return
 	}
 
-	pwd, err := respwd.Crack(*key, *salt)
+	pwd, err := iosrc.Crack(*key, *salt)
 	if err != nil {
 		fmt.Println(err)
 		return

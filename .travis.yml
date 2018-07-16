@@ -1,24 +1,25 @@
 language : go
 
 go:
-  - "1.8"
-  - "1.9"
-  - "1.10"
-  - "1.x"
+  - 1.8.x
+  - 1.9.x
+  - 1.10.x
+  - tip
 
-go_import_path: bmvs.io/iosrc
+go_import_path: go.bmvs.io/iosrc
 
 sudo: false
+
+before_install:
+  - go get -u github.com/mattn/goveralls
+  - go get -u github.com/golang/dep/cmd/dep
+  - dep ensure
 
 before_script:
   - go vet ./...
 
-install:
-  - go get -u github.com/golang/dep/cmd/dep
-  - dep ensure
-
 script:
-  - ./test.sh
+  - go test -v -race $(go list ./... | grep -v vendor)
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - goveralls -service=travis-ci
