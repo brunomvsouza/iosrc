@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"bmvs.io/iosrc/pkg/respwd"
+	"go.bmvs.io/iosrc/pkg/respwd"
 )
 
 func main() {

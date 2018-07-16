@@ -6,7 +6,7 @@ go:
   - "1.10"
   - "1.x"
 
-go_import_path: bmvs.io/iosrc
+go_import_path: go.bmvs.io/iosrc
 
 sudo: false
 

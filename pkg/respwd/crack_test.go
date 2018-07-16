@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bmvs.io/iosrc/pkg/respwd"
+	"go.bmvs.io/iosrc/pkg/respwd"
 )
 
 func TestCrack(t *testing.T) {
