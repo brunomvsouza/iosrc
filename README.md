@@ -1,7 +1,7 @@
 
 ## iOS restriction password recoverer
 
-[![Build Status](https://travis-ci.com/brunomvsouza/iosrc.svg?branch=master)](https://travis-ci.com/brunomvsouza/iosrc) [![codecov](https://codecov.io/gh/brunomvsouza/iosrc/branch/master/graph/badge.svg)](https://codecov.io/gh/brunomvsouza/iosrc) [![Maintainability](https://api.codeclimate.com/v1/badges/4baddf0f6bb3c94f13e3/maintainability)](https://codeclimate.com/github/brunomvsouza/iosrc/maintainability)
+[![Build Status](https://travis-ci.com/brunomvsouza/iosrc.svg?branch=master)](https://travis-ci.com/brunomvsouza/iosrc) [![Coverage Status](https://coveralls.io/repos/github/brunomvsouza/iosrc/badge.svg)](https://coveralls.io/github/brunomvsouza/iosrc)
 
 ### Step 1: Create a backup
 
