@@ -7,8 +7,8 @@ import (
 )
 
 func ExampleCrack() {
-	key := "aI9gkP3_invalid_T1ehRd7g="
-	salt := "H_invalid_=="
+	key := "aI9gkP3NEG+17D8UPyAT1ehRd7g="
+	salt := "hpO5ww=="
 	pwd, err := iosrc.Crack(key, salt)
 	if err != nil {
 		panic(err)
@@ -16,5 +16,5 @@ func ExampleCrack() {
 
 	fmt.Println(pwd)
 
-	// Output: 1234
+	// Output: 4212
 }
