@@ -11,9 +11,9 @@ import (
 
 var (
 	// ErrInvalidSalt couldn't parse salt
-	ErrInvalidSalt = errors.New("respwd: couldn't parse salt")
+	ErrInvalidSalt = errors.New("iosrc: couldn't parse salt")
 	// ErrSorryDidntWork couldn't crack password
-	ErrSorryDidntWork = errors.New("respwd: couldn't crack password")
+	ErrSorryDidntWork = errors.New("iosrc: couldn't crack password")
 )
 
 // Crack brute forces iOS restriction password
