@@ -1,7 +1,7 @@
-
 ## iOS restriction password recoverer
 
 [![GoDoc Reference](https://godoc.org/go.bmvs.io/iosrc?status.svg)](http://godoc.org/go.bmvs.io/iosrc) [![Build Status](https://travis-ci.com/brunomvsouza/iosrc.svg?branch=master)](https://travis-ci.com/brunomvsouza/iosrc) [![Build status](https://ci.appveyor.com/api/projects/status/haa3f6jiy9905peb/branch/master?svg=true)](https://ci.appveyor.com/project/brunomvsouza/iosrc/branch/master) [![Coverage Status](https://coveralls.io/repos/github/brunomvsouza/iosrc/badge.svg)](https://coveralls.io/github/brunomvsouza/iosrc)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbrunomvsouza%2Fiosrc.go.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbrunomvsouza%2Fiosrc.go?ref=badge_shield)
 
 ### Step 1: Create a backup
 
@@ -46,3 +46,7 @@ This repo is 100% inspired on http://ios7hash.derson.us. It was created because
 I needed to recover an iPad restriction password and the implementation of the
 original author wasn't fast enough (even for this small key space) due to running
 on browsers.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbrunomvsouza%2Fiosrc.go.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbrunomvsouza%2Fiosrc.go?ref=badge_large)
