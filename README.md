@@ -1,7 +1,7 @@
 
 ## iOS restriction password recoverer
 
-[![GoDoc Reference](https://godoc.org/go.bmvs.io/iosrc?status.svg)](http://godoc.org/go.bmvs.io/iosrc) [![Build Status](https://lab.bmvs.io/bs/iosrc.go/badges/master/build.svg)](https://lab.bmvs.io/bs/iosrc.go) [![Build status](https://ci.appveyor.com/api/projects/status/haa3f6jiy9905peb/branch/master?svg=true)](https://ci.appveyor.com/project/brunomvsouza/iosrc/branch/master) [![Coverage Status](https://coveralls.io/repos/github/brunomvsouza/iosrc/badge.svg)](https://coveralls.io/github/brunomvsouza/iosrc)
+[![Pipeline status](https://lab.bmvs.io/bs/iosrc.go/badges/master/pipeline.svg)](https://lab.bmvs.io/bs/iosrc.go/commits/master) [![Pipeline status](https://ci.appveyor.com/api/projects/status/yd76vgs1tl80v4g3/branch/master?svg=true)](https://ci.appveyor.com/project/brunomvsouza/iosrc-go/branch/master) [![Coverage Status](https://lab.bmvs.io/bs/iosrc.go/badges/master/coverage.svg)](https://lab.bmvs.io/bs/iosrc.go/commits/master) [![GoDoc Reference](https://godoc.org/go.bmvs.io/iosrc?status.svg)](http://godoc.org/go.bmvs.io/iosrc)
 
 ### Step 1: Create a backup
 
