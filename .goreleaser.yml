@@ -11,14 +11,13 @@ builds:
       - amd64
       - arm
       - arm64
-archive:
-  format: tar.gz
-  replacements:
-    amd64: 64bit
-    386: 32bit
-    darwin: macos
-  files:
-    - LICENSE
+
+archives:
+  - id: iosrc
+    format: tar.gz
+    files:
+      - LICENSE
+
 gitlab_urls:
   api: https://lab.bmvs.io/api/v4/
   download: https://lab.bmvs.io
