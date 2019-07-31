@@ -19,3 +19,8 @@ archive:
     darwin: macos
   files:
     - LICENSE
+gitlab_urls:
+  api: https://lab.bmvs.io/api/v4/
+  download: https://lab.bmvs.io
+  skip_tls_verify: false
+
